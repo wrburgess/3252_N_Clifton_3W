@@ -14,7 +14,6 @@ class App
   end
 end
 
-#GET root
 get "/" do
   @title = App.name
   @body_class = "home"

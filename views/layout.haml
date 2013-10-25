@@ -7,5 +7,5 @@
     %title= "#{@title}"
     %link{ rel: "stylesheet", href: "/css/app.css" }
     %script{ src: "/js/app.js" }
-  %body{ class: "@body_class" }
+  %body{ class: "#{@body_class}" }
     = yield
